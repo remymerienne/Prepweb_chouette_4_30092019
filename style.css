@@ -1136,22 +1136,38 @@ h4 {
     justify-content: center;
 }
 
+@media (max-width: 450px) {
+    .seo-footer-title {
+        text-align: center;
+        margin-right: 10px;
+    }
+}
+
 .seo-footer-title h2,
 .seo-footer-title h3 {
-    font-size: 14px; /* De 11px init à 14 px pour contraste 3:1 */
-    font-weight: 700; /* De 400 init à 700 pour contraste 3:1 */
+    font-size: 19px;
+    /* De 11px init à 19 px pour contraste 3:1 */
+    font-weight: 700;
+    /* De 500 init à 700 pour contraste 3:1 */
     padding: 0px;
     margin-top: 0px;
     margin-bottom: 30px;
 }
 
 /* Classe nouvelle couleur orange pour contraste 3:1 */
-.seo-new-orange {
-    background-color: #EA7248; /* F16D3F */
+.seo-back-orange {
+    background-color: #EA7248;
+    /* F16D3F */
 }
 
 .seo-footer-title h2::after {
     content: "-";
+}
+
+@media (max-width: 450px) {
+    .seo-footer-title h2::after {
+        content: "";
+    }
 }
 
 /* Mise en page des listes des partenaires et annuaires */
@@ -1163,11 +1179,12 @@ h4 {
 
 .seo-contact h4 {
     color: #FFFFFF;
-    font-size: 15px;
-    font-weight: 700; /* Respect du contraste 3:1 pour les H4 du footer */
+    font-size: 19px;
+    /* De 15px init à 19 px pour contraste 3:1 */
+    font-weight: 700;
+    /* 700 pour contraste 3:1 */
     margin-bottom: 20px;
 }
-
 
 /* Liens du Footer - Contraste à 5:1 */
 .seo-contact a {
