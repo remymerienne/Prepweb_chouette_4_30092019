@@ -710,7 +710,9 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 10px auto auto auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 .med-width-whitespace {
@@ -1249,3 +1251,4 @@ h4 {
         margin-left: 0px;
     }
 }
+
