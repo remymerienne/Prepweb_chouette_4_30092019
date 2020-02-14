@@ -487,6 +487,7 @@ button {
 
 .icon-md {
     font-size: 30px !important;
+    margin-bottom: 10px;
 }
 
 .icon-lg {
@@ -1131,6 +1132,7 @@ h4 {
     font-size: 24px;
     /* de 22px à 24px pour contraste de 4.5:1 */
     line-height: 1.4em;
+    opacity: 0.8;
 }
 
 /* ... et conservation du style du lien sous le <p> */
@@ -1150,6 +1152,7 @@ h4 {
 
 @media (max-width: 450px) {
     .seo-footer-title {
+        flex-direction: column;
         text-align: center;
         margin-right: 10px;
     }
