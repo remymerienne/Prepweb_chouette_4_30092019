@@ -39,6 +39,11 @@
 #SEO
 -----------------------------------------------*/
 
+/* Respect de l'article 1.4.1 de la WCAG W3C */
+li a {
+    text-decoration: underline;
+}
+
 /* Paragraphe remplaçant les images title.png et title2.png */
 .seo-text {
     margin: 20px auto;
@@ -159,8 +164,6 @@
 /* Liens du Footer - Contraste à 5:1 */
 .seo-contact a {
     color: #4D2121;
-    /* Respect de l'article 1.4.1 de la WCAG W3C */
-    text-decoration: underline;
 }
 
 .seo-annuaire {
@@ -205,4 +208,21 @@
         align-items: flex-start;
         margin-left: 0px;
     }
+}
+
+/* Focus des liens sur fond blanc */
+.seo-focus-type1:focus {
+    outline: 3px solid #EA7248;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+/* Focus sur les boutons */
+.seo-focus-type2:focus {
+    outline: 3px solid #ffffff;
+}
+
+/* Focus sur les vignettes */
+.seo-focus-type3:focus {
+    outline: 4px solid #333333;
 }
