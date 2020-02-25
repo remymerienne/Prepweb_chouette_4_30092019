@@ -5,7 +5,6 @@ p {
 /* Respect de l'article 1.4.1 de la WCAG W3C */
 li a {
     text-decoration: underline;
-    padding: 0;
 }
 
 .icon-md {
@@ -175,6 +174,10 @@ li a {
 /* Liens du Footer - Contraste à 5:1 */
 .seo-contact a {
     color: #4D2121;
+}
+
+.seo-contact li {
+    margin-bottom: 8px;
 }
 
 .seo-annuaire {
