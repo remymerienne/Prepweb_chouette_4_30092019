@@ -6,7 +6,7 @@
 /* Modifié pour contraste */
 .black-background {
     background-color: #3F2101;
-    opacity: 0.6;
+    opacity: 0.7;
     padding: 40px 40px 40px 40px;
 }
 
@@ -21,6 +21,13 @@
     color: #FFFFFF;
     font-size: 19px;
 }
+
+/* Classe nouvelle couleur orange pour contraste 3:1 */
+.bgc-atomic-tangerine {
+    background-color: #EA7248;
+}
+
+/* ### seo-back-orange */
 
 /* Anciennement image .BMP */
 .bg-presentation {
@@ -119,6 +126,7 @@ li a {
     }
 }
 
+.seo-footer-title h1,
 .seo-footer-title h2,
 .seo-footer-title h3 {
     font-size: 19px;
@@ -128,19 +136,18 @@ li a {
     padding: 0px;
     margin-top: 0px;
     margin-bottom: 15px;
+    color: #ffffff;
 }
 
-/* Classe nouvelle couleur orange pour contraste 3:1 */
-.seo-back-orange {
-    background-color: #EA7248;
-}
-
-.seo-footer-title h2::after {
+.seo-footer-title__h2::after,
+.seo-footer-title__h1::after {
     content: "-";
 }
 
 @media (max-width: 450px) {
-    .seo-footer-title h2::after {
+
+    .seo-footer-title__h2::after,
+    .seo-footer-title__h1::after {
         content: "";
     }
 }
