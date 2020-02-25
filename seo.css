@@ -233,3 +233,10 @@ li a {
 .seo-focus-type3:focus {
     outline: 4px solid #333333;
 }
+
+/* Contraste pour adresse dans footer contact */
+.address {
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 20px;
+}
