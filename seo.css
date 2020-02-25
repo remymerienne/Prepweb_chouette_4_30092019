@@ -1,3 +1,13 @@
+p {
+    font-size: 12px;
+}
+
+/* Respect de l'article 1.4.1 de la WCAG W3C */
+li a {
+    text-decoration: underline;
+    padding: 0;
+}
+
 .icon-md {
     font-size: 30px !important;
     margin-bottom: 10px;
@@ -45,12 +55,6 @@
 /*-----------------------------------------------
 #SEO
 -----------------------------------------------*/
-
-/* Respect de l'article 1.4.1 de la WCAG W3C */
-li a {
-    text-decoration: underline;
-}
-
 /* Paragraphe remplaçant les images title.png et title2.png */
 .seo-text {
     margin: 20px auto;
