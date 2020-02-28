@@ -1,0 +1,13 @@
+/*-----------------------------------------------
+Règles générales
+-----------------------------------------------*/
+
+p {
+    font-size: 12px;
+}
+
+// Respect de l'article 1.4.1 de la WCAG W3C 
+li a {
+    text-decoration: underline;
+    line-height: 32px;
+}

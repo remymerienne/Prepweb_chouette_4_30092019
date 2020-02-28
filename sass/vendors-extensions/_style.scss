@@ -1,0 +1,50 @@
+/*-----------------------------------------------
+Modifications des classes d'origines du fichier 
+style.css
+-----------------------------------------------*/
+
+// Conservation de la taille des icônes sociaux
+.icon-md {
+    font-size: 30px !important;
+    margin-bottom: 10px;
+}
+
+// Modifié pour contraste valide WCAG 
+.black-background {
+    background-color: #3F2101;
+    opacity: 0.7;
+    padding: 40px 40px 40px 40px;
+}
+
+// Modifié pour contraste valide WCAG
+.tc-white {
+    // iso #F3976C 
+    color: #EA7248;
+}
+
+// Modifié pour contraste valide WCAG
+.btn-atomic-tangerine {
+    // iso #F3976C 
+    background-color: #EA7248;
+    color: #FFFFFF;
+    font-size: 19px;
+}
+
+// Modifié pour contraste valide WCAG
+.bgc-atomic-tangerine {
+    // iso #F3976C 
+    background-color: #EA7248;
+}
+
+// Anciennement image-de-presentation.bmp 
+.bg-presentation {
+    background-image: url("../img/image-de-presentation.jpg");
+}
+
+// Modif du display pour que les icones du footer reste à l'horizontal 
+.social {
+    max-width: 400px;
+    margin: 10px auto auto auto;
+    display: flex;
+    justify-content: space-around;
+}

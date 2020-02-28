@@ -1,0 +1,28 @@
+/*-----------------------------------------------
+Typographie
+-----------------------------------------------*/
+
+// Redéfinition des styes pour les titres h2 et h3 
+.seo-h2,
+.seo-h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #333333;
+}
+
+// Conservation du style des titres h2 passé en <p> 
+.seo-big-orange {
+    // iso 22px pour contraste de 4.5:1 
+    font-size: 24px;
+    line-height: 1.4em;
+    opacity: 0.8;
+}
+
+// Conservation du style du lien 'contactez notre équipe' sous le <p>
+#seo-hover {
+    color: #FFFFFF;
+
+    &:hover {
+        color: #cccccc;
+    }
+}

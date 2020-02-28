@@ -1,0 +1,54 @@
+/*-----------------------------------------------
+Footer
+-----------------------------------------------*/
+
+// Mise en page des titres h1, h2 et h3 
+.seo-footer-title {
+    display: flex;
+    justify-content: center;
+
+    @include xs {
+        flex-direction: column;
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    &__h1 {
+        @include footer-title;
+
+        // Tiret entre h1 et h2 dans la page de contact
+        &--respons {
+            content: "-";
+        }
+
+        // Suppression du tiret quand les titres h1 et h2 se superposent
+        // entre 0 et 450px.
+        &::after {
+            @include xs {
+                content: "";
+            }
+        }
+    }
+
+    &__h2 {
+        @include footer-title;
+
+        // Tiret entre h2 et h3 dans la page index.html
+        &--respons {
+            content: "-";
+        }
+
+        // Suppression du tiret quand les titres h2 et h3 se superposent
+        // entre 0 et 450px.
+        &::after {
+            @include xs {
+                content: "";
+            }
+        }
+    }
+
+    &__h3 {
+        @include footer-title;
+    }
+
+}

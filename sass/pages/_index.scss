@@ -1,0 +1,41 @@
+/*-----------------------------------------------
+Page d'accueil
+-----------------------------------------------*/
+
+// Paragraphe remplaçant les images title.png et title2.png 
+.seo-text {
+    margin: 20px auto;
+    width: 60%;
+    text-align: center;
+    font-size: 1.6em;
+
+    @include sm {
+        width: 85%;
+    }
+}
+
+
+// Bloc de citation remplaçant citation.png 
+.seo-quote {
+    margin: 70px auto 10px auto;
+    width: 57%;
+    border: none;
+    text-align: center;
+
+    @include sm {
+        width: 85%;
+    }
+
+    // Paragraphe de la recommandation
+    p {
+        font-style: oblique;
+        font-weight: 500;
+        font-size: 1.1em;
+    }
+
+    // Mofification couleur signature pour un contraste à 4.5:1
+    cite {
+        // iso #777777
+        color: #797676;
+    }
+}

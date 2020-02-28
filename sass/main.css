@@ -1,0 +1,189 @@
+@charset "UTF-8";
+/*-----------------------------------------------
+Modifications des classes d'origines du fichier 
+style.css
+-----------------------------------------------*/
+.icon-md {
+  font-size: 30px !important;
+  margin-bottom: 10px;
+}
+
+.black-background {
+  background-color: #3F2101;
+  opacity: 0.7;
+  padding: 40px 40px 40px 40px;
+}
+
+.tc-white {
+  color: #EA7248;
+}
+
+.btn-atomic-tangerine {
+  background-color: #EA7248;
+  color: #FFFFFF;
+  font-size: 19px;
+}
+
+.bgc-atomic-tangerine {
+  background-color: #EA7248;
+}
+
+.bg-presentation {
+  background-image: url("../img/image-de-presentation.jpg");
+}
+
+.social {
+  max-width: 400px;
+  margin: 10px auto auto auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+/*-----------------------------------------------
+Règles générales
+-----------------------------------------------*/
+p {
+  font-size: 12px;
+}
+
+li a {
+  text-decoration: underline;
+  line-height: 32px;
+}
+
+/*-----------------------------------------------
+Typographie
+-----------------------------------------------*/
+.seo-h2,
+.seo-h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.seo-big-orange {
+  font-size: 24px;
+  line-height: 1.4em;
+  opacity: 0.8;
+}
+
+#seo-hover {
+  color: #FFFFFF;
+}
+
+#seo-hover:hover {
+  color: #cccccc;
+}
+
+/*-----------------------------------------------
+Footer
+-----------------------------------------------*/
+.seo-footer-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media all and (max-width: 450px) {
+  .seo-footer-title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    margin-right: 10px;
+  }
+}
+
+.seo-footer-title__h1 {
+  font-size: 19px;
+  font-weight: 700;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.seo-footer-title__h1--respons {
+  content: "-";
+}
+
+@media all and (max-width: 450px) {
+  .seo-footer-title__h1::after {
+    content: "";
+  }
+}
+
+.seo-footer-title__h2 {
+  font-size: 19px;
+  font-weight: 700;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.seo-footer-title__h2--respons {
+  content: "-";
+}
+
+@media all and (max-width: 450px) {
+  .seo-footer-title__h2::after {
+    content: "";
+  }
+}
+
+.seo-footer-title__h3 {
+  font-size: 19px;
+  font-weight: 700;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+/*-----------------------------------------------
+Page d'accueil
+-----------------------------------------------*/
+.seo-text {
+  margin: 20px auto;
+  width: 60%;
+  text-align: center;
+  font-size: 1.6em;
+}
+
+@media all and (max-width: 700px) {
+  .seo-text {
+    width: 85%;
+  }
+}
+
+.seo-quote {
+  margin: 70px auto 10px auto;
+  width: 57%;
+  border: none;
+  text-align: center;
+}
+
+@media all and (max-width: 700px) {
+  .seo-quote {
+    width: 85%;
+  }
+}
+
+.seo-quote p {
+  font-style: oblique;
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+.seo-quote cite {
+  color: #797676;
+}
+/*# sourceMappingURL=main.css.map */
