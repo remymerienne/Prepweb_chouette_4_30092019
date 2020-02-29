@@ -14,7 +14,6 @@ Page d'accueil
     }
 }
 
-
 // Bloc de citation remplaçant citation.png 
 .seo-quote {
     margin: 70px auto 10px auto;
@@ -36,6 +35,82 @@ Page d'accueil
     // Mofification couleur signature pour un contraste à 4.5:1
     cite {
         // iso #777777
-        color: #797676;
+        color: $dark-color;
+    }
+}
+
+// Bloc contenant les 2 titres h4 et les listes de contacts dans le footer
+.seo-contact {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+    @include md {
+        flex-direction: column;
+    }
+
+    h4 {
+        color: $white-color;
+        // iso 15px pour contraste 3:1
+        font-size: 19px;
+        // mis en gras pour contraste 3:1
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    a {
+        // Liens du Footer Contraste à 4.5:1
+        color: $link-color;
+    }
+
+    // Bloc contenant titre h4 et liste 'Annuaires Webdesing, SEO et marketing'
+    &__annuaire {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 80px;
+
+        @include lg {
+            margin-left: 30px;
+        }
+
+        @include md {
+            align-items: flex-start;
+            margin-left: 0px;
+        }
+    }
+
+    // Bloc contenant titre h4 et liste 'Nos partenaires'
+    &__partenaire {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @include md {
+            align-items: flex-start;
+            margin-left: 0px;
+        }
+    }
+}
+
+// Bloc de la double liste 'Annuaires Webdesing, SEO et marketing' du footer
+.seo-annuaire {
+    display: flex;
+
+    @include md {
+        flex-direction: column;
+    }
+
+    ul {
+        margin-left: 80px;
+
+        @include lg {
+            margin-left: 30px;
+        }
+
+        @include md {
+            align-items: flex-start;
+            margin-left: 0px;
+        }
     }
 }

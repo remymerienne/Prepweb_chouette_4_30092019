@@ -7,7 +7,7 @@ Typographie
 .seo-h3 {
     font-size: 15px;
     font-weight: 700;
-    color: #333333;
+    color: $dark-color;
 }
 
 // Conservation du style des titres h2 passé en <p> 
@@ -20,9 +20,26 @@ Typographie
 
 // Conservation du style du lien 'contactez notre équipe' sous le <p>
 #seo-hover {
-    color: #FFFFFF;
+    color: $white-color;
 
     &:hover {
         color: #cccccc;
     }
+}
+
+// Focus des liens sur fond blanc
+.seo-focus-type1:focus {
+    outline: 3px solid $theme-color;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+// Focus sur les boutons
+.seo-focus-type2:focus {
+    outline: 3px solid $white-color;
+}
+
+// Focus sur les vignettes
+.seo-focus-type3:focus {
+    outline: 4px solid $dark-color;
 }

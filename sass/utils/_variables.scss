@@ -1,6 +1,20 @@
 /// Map de breakpoints utilisée pour les mixins media queries.
+
 $breakpoints: (
     lg: 860px,
     md: 767px,
     sm: 700px,
-    xs: 450px);
+    xs: 450px
+);
+
+/// Couleur du thème
+$theme-color: #EA7248;
+
+/// Couleur des liens du footer
+$link-color: #4D2121;
+
+/// Titres h2 et h3 de la page d'accueil + focus de type 3 + signature de la
+/// recommandation.
+$dark-color: #333333;
+
+$white-color: #ffffff;

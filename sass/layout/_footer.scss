@@ -2,6 +2,19 @@
 Footer
 -----------------------------------------------*/
 
+/// Mise en page et typographie des titres h1, h2 et h3 présents dans les 
+/// footers.
+%footer-title {
+    // De 11px init à 19 px pour contraste 3:1 
+    font-size: 19px;
+    // De 500 init à 700 pour contraste 3:1 
+    font-weight: 700;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    color: $white-color;
+}
+
 // Mise en page des titres h1, h2 et h3 
 .seo-footer-title {
     display: flex;
@@ -14,15 +27,15 @@ Footer
     }
 
     &__h1 {
-        @include footer-title;
+        @extend %footer-title;
 
         // Tiret entre h1 et h2 dans la page de contact
-        &--respons {
+        &--respons::after {
             content: "-";
         }
 
-        // Suppression du tiret quand les titres h1 et h2 se superposent
-        // entre 0 et 450px.
+        // Suppression du tiret quand les titres h1 et h2 se superposent entre
+        // 0 et 450px.
         &::after {
             @include xs {
                 content: "";
@@ -31,15 +44,15 @@ Footer
     }
 
     &__h2 {
-        @include footer-title;
+        @extend %footer-title;
 
         // Tiret entre h2 et h3 dans la page index.html
-        &--respons {
+        &--respons::after {
             content: "-";
         }
 
-        // Suppression du tiret quand les titres h2 et h3 se superposent
-        // entre 0 et 450px.
+        // Suppression du tiret quand les titres h2 et h3 se superposent entre 
+        // 0 et 450px.
         &::after {
             @include xs {
                 content: "";
@@ -48,7 +61,7 @@ Footer
     }
 
     &__h3 {
-        @include footer-title;
+        @extend %footer-title;
     }
 
 }

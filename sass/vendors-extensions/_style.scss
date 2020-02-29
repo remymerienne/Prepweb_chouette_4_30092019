@@ -19,21 +19,21 @@ style.css
 // Modifié pour contraste valide WCAG
 .tc-white {
     // iso #F3976C 
-    color: #EA7248;
+    color: $theme-color;
 }
 
 // Modifié pour contraste valide WCAG
 .btn-atomic-tangerine {
     // iso #F3976C 
-    background-color: #EA7248;
-    color: #FFFFFF;
+    background-color: $theme-color;
+    color: $white-color;
     font-size: 19px;
 }
 
 // Modifié pour contraste valide WCAG
 .bgc-atomic-tangerine {
     // iso #F3976C 
-    background-color: #EA7248;
+    background-color: $theme-color;
 }
 
 // Anciennement image-de-presentation.bmp 

@@ -20,7 +20,7 @@ style.css
 
 .btn-atomic-tangerine {
   background-color: #EA7248;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 19px;
 }
 
@@ -71,16 +71,39 @@ Typographie
 }
 
 #seo-hover {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 #seo-hover:hover {
   color: #cccccc;
 }
 
+.seo-focus-type1:focus {
+  outline: 3px solid #EA7248;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.seo-focus-type2:focus {
+  outline: 3px solid #ffffff;
+}
+
+.seo-focus-type3:focus {
+  outline: 4px solid #333333;
+}
+
 /*-----------------------------------------------
 Footer
 -----------------------------------------------*/
+.seo-footer-title__h1, .seo-footer-title__h2, .seo-footer-title__h3 {
+  font-size: 19px;
+  font-weight: 700;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
 .seo-footer-title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -101,16 +124,7 @@ Footer
   }
 }
 
-.seo-footer-title__h1 {
-  font-size: 19px;
-  font-weight: 700;
-  padding: 0px;
-  margin-top: 0px;
-  margin-bottom: 15px;
-  color: #ffffff;
-}
-
-.seo-footer-title__h1--respons {
+.seo-footer-title__h1--respons::after {
   content: "-";
 }
 
@@ -120,16 +134,7 @@ Footer
   }
 }
 
-.seo-footer-title__h2 {
-  font-size: 19px;
-  font-weight: 700;
-  padding: 0px;
-  margin-top: 0px;
-  margin-bottom: 15px;
-  color: #ffffff;
-}
-
-.seo-footer-title__h2--respons {
+.seo-footer-title__h2--respons::after {
   content: "-";
 }
 
@@ -139,51 +144,12 @@ Footer
   }
 }
 
-.seo-footer-title__h3 {
+/*-----------------------------------------------
+Page de contact
+-----------------------------------------------*/
+.address {
   font-size: 19px;
   font-weight: 700;
-  padding: 0px;
-  margin-top: 0px;
-  margin-bottom: 15px;
-  color: #ffffff;
+  margin-top: 20px;
 }
-
-/*-----------------------------------------------
-Page d'accueil
------------------------------------------------*/
-.seo-text {
-  margin: 20px auto;
-  width: 60%;
-  text-align: center;
-  font-size: 1.6em;
-}
-
-@media all and (max-width: 700px) {
-  .seo-text {
-    width: 85%;
-  }
-}
-
-.seo-quote {
-  margin: 70px auto 10px auto;
-  width: 57%;
-  border: none;
-  text-align: center;
-}
-
-@media all and (max-width: 700px) {
-  .seo-quote {
-    width: 85%;
-  }
-}
-
-.seo-quote p {
-  font-style: oblique;
-  font-weight: 500;
-  font-size: 1.1em;
-}
-
-.seo-quote cite {
-  color: #797676;
-}
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=contact.css.map */
