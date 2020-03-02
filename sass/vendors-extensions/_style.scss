@@ -45,12 +45,30 @@ style.css
     background-image: url("../img/image-de-presentation.jpg");
 }
 
-.webp .bg-banniere {   
+.webp .bg-banniere {
     background-image: url("../img/la-chouette-agence-banniere.webp");
 }
 
 .no-webp .bg-banniere {
     background-image: url("../img/la-chouette-agence-banniere.jpg");
+}
+
+.webp .bg-lines-h2-bg {
+    background-image: url("../img/line-h2-bg.webp");
+}
+
+.no-webp .bg-lines-h2-bg {
+    background-image: url("../img/line-h2-bg.png");
+}
+
+.webp .texture-paper::before {
+    background: url("../img/texture-paper.webp");
+    background-size: 280px 280px;
+}
+
+.no-webp .texture-paper::before {
+    background: url("../img/texture-paper.png");
+    background-size: 280px 280px;
 }
 
 // Modif du display pour que les icones du footer reste à l'horizontal 
