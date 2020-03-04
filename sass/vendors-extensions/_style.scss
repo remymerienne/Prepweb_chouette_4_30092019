@@ -28,6 +28,10 @@ style.css
     background-color: $theme-color;
     color: $white-color;
     font-size: 19px;
+
+    &:focus {
+        outline: 2px solid $white-color;
+    }
 }
 
 // Modifié pour contraste valide WCAG
@@ -77,4 +81,22 @@ style.css
     margin: 10px auto auto auto;
     display: flex;
     justify-content: space-around;
+
+    a {
+        text-decoration: none;
+    }
+
+    &:focus {
+        border-bottom: 4px solid $link-color;
+    }
+}
+
+.portfolio-row a:focus {
+    outline: 4px solid $dark-color;
+}
+
+.navbar a:focus {
+    outline: 3px solid $theme-color;
+    font-size: 19px;
+    font-weight: bold;
 }

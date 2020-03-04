@@ -61,6 +61,12 @@ Page d'accueil
     a {
         // Liens du Footer Contraste à 4.5:1
         color: $link-color;
+
+        &:focus {
+            border-bottom: 4px solid $link-color;
+            text-decoration: none;
+        }
+
     }
 
     // Bloc contenant titre h4 et liste 'Annuaires Webdesing, SEO et marketing'

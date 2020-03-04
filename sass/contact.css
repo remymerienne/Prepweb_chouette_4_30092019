@@ -24,6 +24,10 @@ style.css
   font-size: 19px;
 }
 
+.btn-atomic-tangerine:focus {
+  outline: 2px solid #ffffff;
+}
+
 .bgc-atomic-tangerine {
   background-color: #EA7248;
 }
@@ -72,6 +76,24 @@ style.css
       justify-content: space-around;
 }
 
+.social a {
+  text-decoration: none;
+}
+
+.social:focus {
+  border-bottom: 4px solid #4D2121;
+}
+
+.portfolio-row a:focus {
+  outline: 4px solid #333333;
+}
+
+.navbar a:focus {
+  outline: 3px solid #EA7248;
+  font-size: 19px;
+  font-weight: bold;
+}
+
 /*-----------------------------------------------
 Règles générales
 -----------------------------------------------*/
@@ -102,24 +124,16 @@ Typographie
 
 #seo-hover {
   color: #ffffff;
+  padding: 5px;
 }
 
 #seo-hover:hover {
   color: #cccccc;
 }
 
-.seo-focus-type1:focus {
-  outline: 3px solid #EA7248;
-  font-size: 19px;
-  font-weight: bold;
-}
-
-.seo-focus-type2:focus {
-  outline: 3px solid #ffffff;
-}
-
-.seo-focus-type3:focus {
-  outline: 4px solid #333333;
+#seo-hover:focus {
+  outline: none;
+  border: 3px solid #EA7248;
 }
 
 /*-----------------------------------------------
