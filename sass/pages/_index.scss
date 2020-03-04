@@ -62,6 +62,7 @@ Page d'accueil
         // Liens du Footer Contraste à 4.5:1
         color: $link-color;
 
+        // Focus des liens du footer
         &:focus {
             border-bottom: 4px solid $link-color;
             text-decoration: none;

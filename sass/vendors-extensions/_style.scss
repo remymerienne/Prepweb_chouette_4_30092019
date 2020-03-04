@@ -1,6 +1,5 @@
 /*-----------------------------------------------
-Modifications des classes d'origines du fichier 
-style.css
+Utilisation des classes d'origines
 -----------------------------------------------*/
 
 // Conservation de la taille des icônes sociaux
@@ -22,16 +21,21 @@ style.css
     color: $theme-color;
 }
 
-// Modifié pour contraste valide WCAG
+// Boutons de la page index.html modifié pour contraste valide WCAG
 .btn-atomic-tangerine {
-    // iso #F3976C 
     background-color: $theme-color;
     color: $white-color;
     font-size: 19px;
 
+    // Focus des boutons
     &:focus {
         outline: 2px solid $white-color;
     }
+}
+
+// Bouton de la page de contact
+.bloc-button:focus {
+    outline: 3px solid $dark-color;
 }
 
 // Modifié pour contraste valide WCAG
@@ -91,10 +95,12 @@ style.css
     }
 }
 
+// Focus des images de liens vers le portfolio
 .portfolio-row a:focus {
     outline: 4px solid $dark-color;
 }
 
+// Focus des liens de la barre de navigation
 .navbar a:focus {
     outline: 3px solid $theme-color;
     font-size: 19px;

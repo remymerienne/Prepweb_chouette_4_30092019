@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /*-----------------------------------------------
-Modifications des classes d'origines du fichier 
-style.css
+Utilisation des classes d'origines
 -----------------------------------------------*/
 .icon-md {
   font-size: 30px !important;
@@ -26,6 +25,10 @@ style.css
 
 .btn-atomic-tangerine:focus {
   outline: 2px solid #ffffff;
+}
+
+.bloc-button:focus {
+  outline: 3px solid #333333;
 }
 
 .bgc-atomic-tangerine {
