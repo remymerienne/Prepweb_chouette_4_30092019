@@ -2,8 +2,21 @@
 Typographie
 -----------------------------------------------*/
 
-// Redéfinition des styes pour les titres h2 et h3 
-.seo-h2,
+hr {
+    margin: 55px 35%;
+}
+
+// Redéfinition des styes pour les titres h3 
+.seo-h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: $grey-color;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+// Redéfinition des styes pour les titres h3 
 .seo-h3 {
     font-size: 15px;
     font-weight: 700;
