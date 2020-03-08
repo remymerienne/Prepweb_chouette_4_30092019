@@ -91,6 +91,7 @@ Utilisation des classes d'origines
     }
 
     &:focus {
+        outline: none;
         border-bottom: 4px solid $link-color;
     }
 }

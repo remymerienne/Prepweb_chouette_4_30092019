@@ -84,6 +84,7 @@ Utilisation des classes d'origines
 }
 
 .social:focus {
+  outline: none;
   border-bottom: 4px solid #4D2121;
 }
 
