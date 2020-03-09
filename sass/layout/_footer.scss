@@ -26,23 +26,6 @@ Footer
         margin-right: 10px;
     }
 
-    &__h1 {
-        @extend %footer-title;
-
-        // Tiret entre h1 et h2 dans la page de contact
-        &--respons::after {
-            content: "-";
-        }
-
-        // Suppression du tiret quand les titres h1 et h2 se superposent entre
-        // 0 et 450px.
-        &::after {
-            @include xs {
-                content: "";
-            }
-        }
-    }
-
     &__h2 {
         @extend %footer-title;
 

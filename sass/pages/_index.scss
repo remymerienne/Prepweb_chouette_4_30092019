@@ -121,9 +121,3 @@ Page d'accueil
         }
     }
 }
-
-// Inversion des blocs 0 et 1 pour que <body> ait un titre H1
-.reverse {
-    display: flex;
-    flex-direction: column-reverse;
-}

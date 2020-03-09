@@ -107,3 +107,9 @@ Utilisation des classes d'origines
     font-size: 19px;
     font-weight: bold;
 }
+
+// Inversion des blocs 0 et 1 pour que les <body> ait un titre H1
+.reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}

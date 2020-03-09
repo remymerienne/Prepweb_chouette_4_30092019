@@ -98,6 +98,16 @@ Utilisation des classes d'origines
   font-weight: bold;
 }
 
+.reverse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
 /*-----------------------------------------------
 Règles générales
 -----------------------------------------------*/
@@ -155,7 +165,7 @@ hr {
 /*-----------------------------------------------
 Footer
 -----------------------------------------------*/
-.seo-footer-title__h1, .seo-footer-title__h2, .seo-footer-title__h3 {
+.seo-footer-title__h2, .seo-footer-title__h3 {
   font-size: 19px;
   font-weight: 700;
   padding: 0px;
@@ -181,16 +191,6 @@ Footer
             flex-direction: column;
     text-align: center;
     margin-right: 10px;
-  }
-}
-
-.seo-footer-title__h1--respons::after {
-  content: "-";
-}
-
-@media all and (max-width: 450px) {
-  .seo-footer-title__h1::after {
-    content: "";
   }
 }
 
@@ -361,15 +361,5 @@ Page d'accueil
             align-items: flex-start;
     margin-left: 0px;
   }
-}
-
-.reverse {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
 }
 /*# sourceMappingURL=index.css.map */
