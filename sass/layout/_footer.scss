@@ -48,3 +48,26 @@ Footer
     }
 
 }
+
+// Conservation de la taille des icônes sociaux
+.icon-md {
+    font-size: 30px !important;
+    margin-bottom: 10px;
+}
+
+// Modif du display pour que les icones du footer reste à l'horizontal 
+.social {
+    max-width: 400px;
+    margin: 10px auto auto auto;
+    display: flex;
+    justify-content: space-around;
+
+    a {
+        text-decoration: none;
+    }
+
+    &:focus {
+        outline: none;
+        border-bottom: 4px solid $link-color;
+    }
+}

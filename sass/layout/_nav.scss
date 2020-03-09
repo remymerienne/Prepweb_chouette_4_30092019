@@ -1,0 +1,10 @@
+/*-----------------------------------------------
+Nav
+-----------------------------------------------*/
+
+// Focus des liens de la barre de navigation
+.navbar a:focus {
+    outline: 3px solid $theme-color;
+    font-size: 19px;
+    font-weight: bold;
+}

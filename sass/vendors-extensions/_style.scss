@@ -1,12 +1,6 @@
 /*-----------------------------------------------
-Utilisation des classes d'origines
+Modification des classes d'origines utilisées sur les 2 pages
 -----------------------------------------------*/
-
-// Conservation de la taille des icônes sociaux
-.icon-md {
-    font-size: 30px !important;
-    margin-bottom: 10px;
-}
 
 // Modifié pour contraste valide WCAG 
 .black-background {
@@ -33,7 +27,6 @@ Utilisation des classes d'origines
     }
 }
 
-// Bouton de la page de contact
 .bloc-button:focus {
     outline: 3px solid $dark-color;
 }
@@ -53,22 +46,6 @@ Utilisation des classes d'origines
     background-image: url("../img/image-de-presentation.jpg");
 }
 
-.webp .bg-banniere {
-    background-image: url("../img/la-chouette-agence-banniere.webp");
-}
-
-.no-webp .bg-banniere {
-    background-image: url("../img/la-chouette-agence-banniere.jpg");
-}
-
-.webp .bg-lines-h2-bg {
-    background-image: url("../img/line-h2-bg.webp");
-}
-
-.no-webp .bg-lines-h2-bg {
-    background-image: url("../img/line-h2-bg.png");
-}
-
 .webp .texture-paper::before {
     background: url("../img/texture-paper.webp");
     background-size: 280px 280px;
@@ -77,35 +54,6 @@ Utilisation des classes d'origines
 .no-webp .texture-paper::before {
     background: url("../img/texture-paper.png");
     background-size: 280px 280px;
-}
-
-// Modif du display pour que les icones du footer reste à l'horizontal 
-.social {
-    max-width: 400px;
-    margin: 10px auto auto auto;
-    display: flex;
-    justify-content: space-around;
-
-    a {
-        text-decoration: none;
-    }
-
-    &:focus {
-        outline: none;
-        border-bottom: 4px solid $link-color;
-    }
-}
-
-// Focus des images de liens vers le portfolio
-.portfolio-row a:focus {
-    outline: 4px solid $dark-color;
-}
-
-// Focus des liens de la barre de navigation
-.navbar a:focus {
-    outline: 3px solid $theme-color;
-    font-size: 19px;
-    font-weight: bold;
 }
 
 // Inversion des blocs 0 et 1 pour que les <body> ait un titre H1

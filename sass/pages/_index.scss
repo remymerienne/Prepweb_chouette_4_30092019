@@ -65,6 +65,7 @@ Page d'accueil
         // Focus des liens du footer
         &:focus {
             border-bottom: 4px solid $link-color;
+            outline: none;
             text-decoration: none;
         }
 
@@ -120,4 +121,65 @@ Page d'accueil
             margin-left: 0px;
         }
     }
+}
+
+// Redéfinition des styes pour les titres h2 
+.seo-h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: $grey-color;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+// Redéfinition des styes pour les titres h3 
+.seo-h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: $dark-color;
+}
+
+// Conservation du style du lien 'contactez notre équipe' sous le <p> + focus
+#seo-hover {
+    color: $white-color;
+    padding: 5px;
+
+    &:hover {
+        color: #cccccc;
+    }
+
+    &:focus {
+        outline: none;
+        border: 3px solid $theme-color;
+    }
+}
+
+// Conservation du style des titres h2 passé en <p> 
+.seo-big-orange {
+    // iso 22px pour contraste de 4.5:1 
+    font-size: 24px;
+    line-height: 1.4em;
+    opacity: 0.8;
+}
+
+// Focus des images de liens vers le portfolio
+.portfolio-row a:focus {
+    outline: 4px solid $dark-color;
+}
+
+.webp .bg-banniere {
+    background-image: url("../img/la-chouette-agence-banniere.webp");
+}
+
+.no-webp .bg-banniere {
+    background-image: url("../img/la-chouette-agence-banniere.jpg");
+}
+
+.webp .bg-lines-h2-bg {
+    background-image: url("../img/line-h2-bg.webp");
+}
+
+.no-webp .bg-lines-h2-bg {
+    background-image: url("../img/line-h2-bg.png");
 }

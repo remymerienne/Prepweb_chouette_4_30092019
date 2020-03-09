@@ -1,12 +1,7 @@
 @charset "UTF-8";
 /*-----------------------------------------------
-Utilisation des classes d'origines
+Modification des classes d'origines utilisées sur les 2 pages
 -----------------------------------------------*/
-.icon-md {
-  font-size: 30px !important;
-  margin-bottom: 10px;
-}
-
 .black-background {
   background-color: #3F2101;
   opacity: 0.7;
@@ -43,22 +38,6 @@ Utilisation des classes d'origines
   background-image: url("../img/image-de-presentation.jpg");
 }
 
-.webp .bg-banniere {
-  background-image: url("../img/la-chouette-agence-banniere.webp");
-}
-
-.no-webp .bg-banniere {
-  background-image: url("../img/la-chouette-agence-banniere.jpg");
-}
-
-.webp .bg-lines-h2-bg {
-  background-image: url("../img/line-h2-bg.webp");
-}
-
-.no-webp .bg-lines-h2-bg {
-  background-image: url("../img/line-h2-bg.png");
-}
-
 .webp .texture-paper::before {
   background: url("../img/texture-paper.webp");
   background-size: 280px 280px;
@@ -67,35 +46,6 @@ Utilisation des classes d'origines
 .no-webp .texture-paper::before {
   background: url("../img/texture-paper.png");
   background-size: 280px 280px;
-}
-
-.social {
-  max-width: 400px;
-  margin: 10px auto auto auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.social a {
-  text-decoration: none;
-}
-
-.social:focus {
-  outline: none;
-  border-bottom: 4px solid #4D2121;
-}
-
-.portfolio-row a:focus {
-  outline: 4px solid #333333;
-}
-
-.navbar a:focus {
-  outline: 3px solid #EA7248;
-  font-size: 19px;
-  font-weight: bold;
 }
 
 .reverse {
@@ -115,51 +65,22 @@ p {
   font-size: 12px;
 }
 
+hr {
+  margin: 55px 35%;
+}
+
 li a {
   text-decoration: underline;
   line-height: 32px;
 }
 
 /*-----------------------------------------------
-Typographie
+Nav
 -----------------------------------------------*/
-hr {
-  margin: 55px 35%;
-}
-
-.seo-h2 {
-  text-align: center;
-  font-size: 24px;
-  font-weight: 400;
-  color: #575757;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.seo-h3 {
-  font-size: 15px;
-  font-weight: 700;
-  color: #333333;
-}
-
-.seo-big-orange {
-  font-size: 24px;
-  line-height: 1.4em;
-  opacity: 0.8;
-}
-
-#seo-hover {
-  color: #ffffff;
-  padding: 5px;
-}
-
-#seo-hover:hover {
-  color: #cccccc;
-}
-
-#seo-hover:focus {
-  outline: none;
-  border: 3px solid #EA7248;
+.navbar a:focus {
+  outline: 3px solid #EA7248;
+  font-size: 19px;
+  font-weight: bold;
 }
 
 /*-----------------------------------------------
@@ -202,6 +123,30 @@ Footer
   .seo-footer-title__h2::after {
     content: "";
   }
+}
+
+.icon-md {
+  font-size: 30px !important;
+  margin-bottom: 10px;
+}
+
+.social {
+  max-width: 400px;
+  margin: 10px auto auto auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.social a {
+  text-decoration: none;
+}
+
+.social:focus {
+  outline: none;
+  border-bottom: 4px solid #4D2121;
 }
 
 /*-----------------------------------------------
@@ -275,6 +220,7 @@ Page d'accueil
 
 .seo-contact a:focus {
   border-bottom: 4px solid #4D2121;
+  outline: none;
   text-decoration: none;
 }
 
@@ -361,5 +307,60 @@ Page d'accueil
             align-items: flex-start;
     margin-left: 0px;
   }
+}
+
+.seo-h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  color: #575757;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.seo-h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #333333;
+}
+
+#seo-hover {
+  color: #ffffff;
+  padding: 5px;
+}
+
+#seo-hover:hover {
+  color: #cccccc;
+}
+
+#seo-hover:focus {
+  outline: none;
+  border: 3px solid #EA7248;
+}
+
+.seo-big-orange {
+  font-size: 24px;
+  line-height: 1.4em;
+  opacity: 0.8;
+}
+
+.portfolio-row a:focus {
+  outline: 4px solid #333333;
+}
+
+.webp .bg-banniere {
+  background-image: url("../img/la-chouette-agence-banniere.webp");
+}
+
+.no-webp .bg-banniere {
+  background-image: url("../img/la-chouette-agence-banniere.jpg");
+}
+
+.webp .bg-lines-h2-bg {
+  background-image: url("../img/line-h2-bg.webp");
+}
+
+.no-webp .bg-lines-h2-bg {
+  background-image: url("../img/line-h2-bg.png");
 }
 /*# sourceMappingURL=index.css.map */
