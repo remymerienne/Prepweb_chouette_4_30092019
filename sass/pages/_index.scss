@@ -155,14 +155,6 @@ Page d'accueil
     }
 }
 
-// Conservation du style des titres h2 passé en <p> 
-.seo-big-orange {
-    // iso 22px pour contraste de 4.5:1 
-    font-size: 24px;
-    line-height: 1.4em;
-    opacity: 0.8;
-}
-
 // Focus des images de liens vers le portfolio
 .portfolio-row a:focus {
     outline: 4px solid $dark-color;
@@ -183,3 +175,9 @@ Page d'accueil
 .no-webp .bg-line-h2-bg {
     background-image: url("../img/line-h2-bg.png");
 }
+
+.region{
+    font-size: 26px;
+    color: $white-color;
+}
+
