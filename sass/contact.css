@@ -183,6 +183,7 @@ form p {
 form .red {
   color: red;
   font-size: 19px;
+  font-weight: 700;
 }
 
 form .champ {
