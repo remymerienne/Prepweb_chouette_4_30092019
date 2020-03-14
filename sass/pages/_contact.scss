@@ -7,7 +7,20 @@ Page de contact
     font-size: 19px;
     font-weight: 700;
     margin-top: 20px;
+
+    a {
+        color: $link-color;
+        text-decoration: underline;
+
+        &:focus {
+            border-bottom: 4px solid $link-color;
+            outline: none;
+            text-decoration: none;
+        }
+    }
 }
+
+
 
 // Formulaire
 form {

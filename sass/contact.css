@@ -164,6 +164,17 @@ Page de contact
   margin-top: 20px;
 }
 
+.address a {
+  color: #4D2121;
+  text-decoration: underline;
+}
+
+.address a:focus {
+  border-bottom: 4px solid #4D2121;
+  outline: none;
+  text-decoration: none;
+}
+
 form {
   width: 500px;
   margin: 30px auto;
