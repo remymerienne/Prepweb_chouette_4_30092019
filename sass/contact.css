@@ -165,10 +165,15 @@ Page de contact
 }
 
 form {
-  width: 30%;
+  width: 500px;
   margin: 30px auto;
   padding: 10px;
-  border: 2px solid #EA7248;
+}
+
+@media all and (max-width: 700px) {
+  form {
+    width: 90%;
+  }
 }
 
 form p {
@@ -188,7 +193,8 @@ form input {
   display: block;
 }
 
-form #name, form #email {
+form #name,
+form #email {
   width: 250px;
 }
 

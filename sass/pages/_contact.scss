@@ -11,10 +11,13 @@ Page de contact
 
 // Formulaire
 form {
-    width: 30%;
+    width: 500px;
     margin: 30px auto;
     padding: 10px;
-    border: 2px solid $theme-color;
+
+    @include sm {
+        width: 90%;
+    }
 
     p {
         text-align: right;
@@ -33,7 +36,8 @@ form {
         display: block;
     }
 
-    #name, #email {
+    #name,
+    #email {
         width: 250px;
     }
 
