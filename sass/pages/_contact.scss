@@ -13,20 +13,8 @@ Page de contact
         text-decoration: underline;
 
         &:focus {
-            border-bottom: 4px solid $link-color;
-            outline: none;
-            text-decoration: none;
+            @extend %focus-footer-link;
         }
-    }
-}
-
-/// Placeholder du focus formulaire
-%focus-form {
-    font-weight: 500;
-
-    &:focus {
-        background-color: #BBDEFB;
-        outline: 2px solid $theme-color;
     }
 }
 
@@ -45,7 +33,7 @@ form {
     }
 
     .red {
-        color: red;
+        color: $red-color;
         font-size: 19px;
         font-weight: 700;
     }

@@ -64,9 +64,7 @@ Page d'accueil
 
         // Focus des liens du footer
         &:focus {
-            border-bottom: 4px solid $link-color;
-            outline: none;
-            text-decoration: none;
+            @extend %focus-footer-link;
         }
 
     }
@@ -176,8 +174,7 @@ Page d'accueil
     background-image: url("../img/line-h2-bg.png");
 }
 
-.region{
+.region {
     font-size: 26px;
     color: $white-color;
 }
-

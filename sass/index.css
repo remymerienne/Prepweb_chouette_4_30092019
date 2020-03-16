@@ -1,5 +1,23 @@
 @charset "UTF-8";
 /*-----------------------------------------------
+Placeholders
+-----------------------------------------------*/
+.seo-footer-title__h2, .seo-footer-title__h3 {
+  font-size: 19px;
+  font-weight: 700;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.social:focus, .seo-contact a:focus {
+  border-bottom: 4px solid #4D2121;
+  outline: none;
+  text-decoration: none;
+}
+
+/*-----------------------------------------------
 Classes d'origines et classes spécifiques utilisées sur les 2 pages
 -----------------------------------------------*/
 .black-background {
@@ -92,15 +110,6 @@ Nav
 /*-----------------------------------------------
 Footer
 -----------------------------------------------*/
-.seo-footer-title__h2, .seo-footer-title__h3 {
-  font-size: 19px;
-  font-weight: 700;
-  padding: 0px;
-  margin-top: 0px;
-  margin-bottom: 15px;
-  color: #ffffff;
-}
-
 .seo-footer-title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -148,11 +157,6 @@ Footer
 
 .social a {
   text-decoration: none;
-}
-
-.social:focus {
-  outline: none;
-  border-bottom: 4px solid #4D2121;
 }
 
 /*-----------------------------------------------
@@ -222,12 +226,6 @@ Page d'accueil
 
 .seo-contact a {
   color: #4D2121;
-}
-
-.seo-contact a:focus {
-  border-bottom: 4px solid #4D2121;
-  outline: none;
-  text-decoration: none;
 }
 
 .seo-contact__annuaire {
