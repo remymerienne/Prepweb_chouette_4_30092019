@@ -175,6 +175,15 @@ Page de contact
   text-decoration: none;
 }
 
+form input, form #message {
+  font-weight: 500;
+}
+
+form input:focus, form #message:focus {
+  background-color: #BBDEFB;
+  outline: 2px solid #EA7248;
+}
+
 form {
   width: 500px;
   margin: 30px auto;

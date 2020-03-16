@@ -20,7 +20,15 @@ Page de contact
     }
 }
 
+/// Placeholder du focus formulaire
+%focus-form {
+    font-weight: 500;
 
+    &:focus {
+        background-color: #BBDEFB;
+        outline: 2px solid $theme-color;
+    }
+}
 
 // Formulaire
 form {
@@ -48,6 +56,7 @@ form {
 
     input {
         display: block;
+        @extend %focus-form
     }
 
     #name,
@@ -58,5 +67,6 @@ form {
     #message {
         width: 100%;
         height: 150px;
+        @extend %focus-form
     }
 }
