@@ -221,4 +221,13 @@ form #message {
   width: 100%;
   height: 150px;
 }
+
+form #m,
+form #f {
+  display: inline;
+}
+
+form #m {
+  margin-left: 15px;
+}
 /*# sourceMappingURL=contact.css.map */

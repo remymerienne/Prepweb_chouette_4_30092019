@@ -18,12 +18,18 @@
 	<script src="js/jqBootstrapValidation.js" defer></script>
 	<script src="js/formHandler.js" defer></script>
 	<!-- Favicon -->
-	<link rel="apple-touch-icon" sizes="57x57" href="https://remymerienne.github.io/chouette/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="https://remymerienne.github.io/chouette/apple-touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="https://remymerienne.github.io/chouette/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="https://remymerienne.github.io/chouette/apple-touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="https://remymerienne.github.io/chouette/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="https://remymerienne.github.io/chouette/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="57x57"
+		href="https://remymerienne.github.io/chouette/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60"
+		href="https://remymerienne.github.io/chouette/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72"
+		href="https://remymerienne.github.io/chouette/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76"
+		href="https://remymerienne.github.io/chouette/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114"
+		href="https://remymerienne.github.io/chouette/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120"
+		href="https://remymerienne.github.io/chouette/apple-touch-icon-120x120.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="https://remymerienne.github.io/chouette/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="https://remymerienne.github.io/chouette/favicon-16x16.png">
 	<link rel="manifest" href="https://remymerienne.github.io/chouette/site.webmanifest">
@@ -123,22 +129,28 @@
 
 		<!-- Contenu principal de la page -->
 		<main>
-			<!-- Mon formulaire -->
+			<!-- Formulaire -->
 			<form><!-- method="post" action="includes/form_1.php" -->
 				<p>
 					<span class="red">*</span> champs obligatoires
 				</p>
 				<div class="champ">
-					<label for="name">Nom <span class="red">*</span></label>
-					<input type="text" id="name" name="name" required>
+					<input type="radio" id="f" name="gender" value="Mme ">
+					<label for="f">Madame</label>
+					<input type="radio" id="m" name="gender" value="Mr ">
+					<label for="m">Monsieur</label>
 				</div>
 				<div class="champ">
-					<label for="email">Adresse email <span class="red">*</span></label>
-					<input type="email" id="email" name="email" required>
+					<label for="name">Nom &nbsp;<span class="red">*</span></label>
+					<input type="text" id="name" name="name_value" required>
+				</div>
+				<div class="champ">
+					<label for="email">Adresse email &nbsp;<span class="red">*</span></label>
+					<input type="email" id="email" name="email_value" required>
 				</div>
 				<div class="champ media">
 					<label for="media">Comment nous avez-vous connu ?</label>
-					<select id="media" name="media">
+					<select id="media" name="media_value">
 						<optgroup label="Réseaux sociaux">
 							<option value="facebook">Facebook</option>
 							<option value="twitter">Twitter</option>
@@ -150,12 +162,12 @@
 							<option value="amis">Ami(e)s</option>
 							<option value="pro">Entourage Professionnel</option>
 						</optgroup>
-						<option value="autre">Autre</option>
+						<option value="autre" selected="selected">Autre</option>
 					</select>
 				</div>
 				<div class="champ">
-					<label for="message">Décrivez-nous en détail votre projet <span class="red">*</span></label>
-					<textarea id="message" name="message" required></textarea>
+					<label for="message">Décrivez-nous en détail votre projet &nbsp;<span class="red">*</span></label>
+					<textarea id="message" name="message_value" required></textarea>
 				</div>
 				<div class="champ">
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
@@ -163,7 +175,7 @@
 					</button>
 				</div>
 			</form>
-			<!-- Mon formulaire END -->
+			<!-- Formulaire END -->
 		</main>
 		<!-- Contenu principal de la page END -->
 

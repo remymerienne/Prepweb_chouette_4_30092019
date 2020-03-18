@@ -57,4 +57,13 @@ form {
         height: 150px;
         @extend %focus-form
     }
+
+    #m,
+    #f {
+        display: inline;
+    }
+
+    #m {
+        margin-left: 15px;
+    }
 }
