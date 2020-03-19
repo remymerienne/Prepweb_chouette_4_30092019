@@ -222,12 +222,12 @@ form #message {
   height: 150px;
 }
 
-form #m,
-form #f {
+form #male,
+form #female {
   display: inline;
 }
 
-form #m {
+form #male {
   margin-left: 15px;
 }
 /*# sourceMappingURL=contact.css.map */

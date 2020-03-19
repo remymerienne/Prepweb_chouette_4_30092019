@@ -111,12 +111,8 @@
 						</div>
 						<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 							<ul class="site-navigation nav navbar-nav">
-								<li>
-									<a href="index.html">Accueil</a>
-								</li>
-								<li>
-									<a href="contact-la-chouette-agence-webdesign-lyon.html">Contact</a>
-								</li>
+								<li><a href="index.html">Accueil</a></li>
+								<li><a href="contact-la-chouette-agence-webdesign-lyon.html">Contact</a></li>
 							</ul>
 						</div>
 					</nav>
@@ -130,15 +126,16 @@
 		<!-- Contenu principal de la page -->
 		<main>
 			<!-- Formulaire -->
-			<form><!-- method="post" action="includes/form_1.php" -->
+			<!-- method="post" action="includes/form_1.php" -->
+			<form>
 				<p>
 					<span class="red">*</span> champs obligatoires
 				</p>
 				<div class="champ">
-					<input type="radio" id="f" name="gender" value="Mme ">
-					<label for="f">Madame</label>
-					<input type="radio" id="m" name="gender" value="Mr ">
-					<label for="m">Monsieur</label>
+					<input type="radio" id="female" name="gender_value" value="Mme ">
+					<label for="female">Madame</label>
+					<input type="radio" id="male" name="gender_value" value="Mr ">
+					<label for="male">Monsieur</label>
 				</div>
 				<div class="champ">
 					<label for="name">Nom &nbsp;<span class="red">*</span></label>

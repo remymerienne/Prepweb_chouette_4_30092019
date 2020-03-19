@@ -58,12 +58,12 @@ form {
         @extend %focus-form
     }
 
-    #m,
-    #f {
+    #male,
+    #female {
         display: inline;
     }
 
-    #m {
+    #male {
         margin-left: 15px;
     }
 }
